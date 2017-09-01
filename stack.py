@@ -20,6 +20,9 @@ class Stack:
     def size(self):
         return len(self.items)
 
+    def show(self):
+        return self.items
+
 
 # Another implementation of stack where the top is at the beginning
 class Stack2():
