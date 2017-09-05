@@ -18,7 +18,7 @@ class Queue:
     def show(self):
         """ Show contents of a queue
         """
-        return self.items
+        print(self.items)
 
 """
 q = Queue()
